@@ -1,0 +1,24 @@
+<userConfig>
+  <!-- unit: words per minute. This value is used to calculate the estimated reading time needed for each article -->
+  <readSpeed>200</readSpeed>
+  <!-- sources of RSS feeds that the user is interested in. Currently supported sources: nytimes, foxnews, globalnews, cbsnews, cnn, other. -->
+  <sourcesInterested>
+    <source>cnn</source>
+    <source>nytimes</source>
+    <source>foxnews</source>
+  </sourcesInterested>
+  <!-- topics subscribed by the user. Currently supported topics: world, tech, science, sports, health, other. Please choose from these values -->
+  <topicsSubscribed>
+    <topic>world</topic>
+    <!-- <topic>tech</topic> -->
+    <!-- <topic>science</topic> -->
+    <topic>sports</topic>
+    <topic>health</topic>
+  </topicsSubscribed>
+  <!-- words that the user doesn't want to see in the title of the RSS article -->
+  <filterOutWords>
+    <word>Obama</word>
+    <word>Drug</word>
+  </filterOutWords>
+  
+</userConfig>
